@@ -1,4 +1,4 @@
-{{#if (not (eq this.router.currentURL "/c/journey/l/latest?board=true"))}}
+{{#if (not (includes this.router.currentURL "/c/journey/"))}}
   <div class="sticky-sidebar">
     <div
       {{did-insert this.didInsert}}
