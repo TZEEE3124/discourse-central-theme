@@ -23,9 +23,14 @@ export default class RightBlocks extends Component {
   }
 
   get shouldRenderBlocks() {
+    const currentUrl = this.router.currentURL;
+    const excludeUrl = "/c/journey/23/l/latest?board";
+
     return (
       this.router?.currentRoute?.parent?.name === "discovery" &&
       this.router?.currentRouteName !== "discovery.categories"
+      !this.site.mobileView &&
+      currentUrl !== excludeUrl
     );
   }
 
