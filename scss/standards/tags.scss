@@ -15,8 +15,15 @@
 
 .discourse-tag{
     border-radius: 5px;
+    color: white;
 }
 
 div.sidebar-section-header-wrapper.sidebar-row{
     font-size: 18px;
+}
+
+a.badge-category__wrapper {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0px 8px 0px 8px;
 }
