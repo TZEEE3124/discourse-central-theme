@@ -1,4 +1,4 @@
-{{#if (not (includes this.router.currentURL "/c/journey/"))}}
+{{#if (not (or (includes this.router.currentURL "/c/journey/") (includes this.router.currentURL "/c/firmware/")))}}
   <div class="sticky-sidebar">
     <div
       {{did-insert this.didInsert}}
