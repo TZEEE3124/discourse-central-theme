@@ -2,7 +2,7 @@
 [data-tag-name="legit"]:visited,
 [data-tag-name="legit"].bullet:before {
     background-color: green;
-    color: white;
+    color: white !important;
     border-radius: 5px;
 }
 
@@ -10,12 +10,11 @@
 [data-tag-name="rage"]:visited,
 [data-tag-name="rage"].bullet:before {
     background-color: red;
-    color: white;
+    color: white !important;
 }
 
 .discourse-tag{
     border-radius: 5px;
-    color: white;
 }
 
 div.sidebar-section-header-wrapper.sidebar-row{
