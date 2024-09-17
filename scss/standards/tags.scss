@@ -31,12 +31,17 @@ a.badge-category__wrapper {
     max-width: max-content;
 }
 
-[data-section-name="config-community"] {
-    order: -3;
-  }
-  [data-section-name="categories"] {
-    order: -2;
-  }
-  [data-section-name="important"] {
-    order: -1;
+.sidebar-wrapper { 
+    .sidebar-custom-sections {
+      display: contents;
+    } 
+    [data-section-name="config-community"] {
+      order: -3;
+    }
+    [data-section-name="categories"] {
+      order: -2;
+    }
+    [data-section-name="important"] {
+      order: -1;
+    }
   }
